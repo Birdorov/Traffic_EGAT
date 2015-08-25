@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent objIntent = new Intent(Intent.ACTION_VIEW);
                 objIntent.setData(Uri.parse("http://www.egat.co.th/index.php?option=com_content&view=article&id=346&Itemid=209"));
                 startActivity(objIntent);
-                
+
             }   // event
         });
 
